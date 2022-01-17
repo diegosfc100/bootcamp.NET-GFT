@@ -1,0 +1,15 @@
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/bin/Debug/net6.0/Revisao
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/bin/Debug/net6.0/Revisao.deps.json
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/bin/Debug/net6.0/Revisao.runtimeconfig.json
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/bin/Debug/net6.0/Revisao.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/bin/Debug/net6.0/ref/Revisao.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/bin/Debug/net6.0/Revisao.pdb
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/obj/Debug/net6.0/Revisao.csproj.AssemblyReference.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/obj/Debug/net6.0/Revisao.GeneratedMSBuildEditorConfig.editorconfig
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/obj/Debug/net6.0/Revisao.AssemblyInfoInputs.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/obj/Debug/net6.0/Revisao.AssemblyInfo.cs
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/obj/Debug/net6.0/Revisao.csproj.CoreCompileInputs.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/obj/Debug/net6.0/Revisao.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/obj/Debug/net6.0/ref/Revisao.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/obj/Debug/net6.0/Revisao.pdb
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Revisao/obj/Debug/net6.0/Revisao.genruntimeconfig.cache
