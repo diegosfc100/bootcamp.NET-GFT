@@ -49,7 +49,21 @@ namespace HelloWorld // **Explicação na Aula de Orientação a Objetos
 
             // Constantes -  parecidos com var porém uma vez declarada não possível alterar seu valor
             const float PI = 3.14f;
+
  
+            /* Capturando entrada do usuário */
+            string profissao = "";
+            Console.WriteLine("Escreva sua profissão: ");
+            profissao = Console.ReadLine();
+            Console.WriteLine("Sua profissão é: " + profissao);
+
+
+            /* Operadores Aritiméticos */
+            int numeroQualquer = 20 + 20;
+            int numeroMult = 10 + 10 - 10 * 5; // multiplicação e divisão são feitos primeiro.
+            int numeroDiv = 5 / 2; // A divisão de números int, a variavel sempre vai armazenar o resultado int, no caso 2.
+            // para concertar isso, devemos definir pelo menos um dos valores como float 
+
 
 
 
