@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello,World/Hello,World.csproj",
+      "projectUniqueName": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/Hello,World.csproj",
       "projectName": "Hello,World",
-      "projectPath": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello,World/Hello,World.csproj",
+      "projectPath": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/Hello,World.csproj",
       "packagesPath": "/home/diego-jn2/.nuget/packages/",
-      "outputPath": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello,World/obj/",
+      "outputPath": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/diego-jn2/.nuget/NuGet/NuGet.Config"

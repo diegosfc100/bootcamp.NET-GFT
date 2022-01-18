@@ -1,0 +1,15 @@
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/bin/Debug/net6.0/Hello,World
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/bin/Debug/net6.0/Hello,World.deps.json
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/bin/Debug/net6.0/Hello,World.runtimeconfig.json
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/bin/Debug/net6.0/Hello,World.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/bin/Debug/net6.0/ref/Hello,World.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/bin/Debug/net6.0/Hello,World.pdb
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/Debug/net6.0/Hello,World.csproj.AssemblyReference.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/Debug/net6.0/Hello,World.GeneratedMSBuildEditorConfig.editorconfig
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/Debug/net6.0/Hello,World.AssemblyInfoInputs.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/Debug/net6.0/Hello,World.AssemblyInfo.cs
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/Debug/net6.0/Hello,World.csproj.CoreCompileInputs.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/Debug/net6.0/Hello,World.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/Debug/net6.0/ref/Hello,World.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/Debug/net6.0/Hello,World.pdb
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/Hello, World !/obj/Debug/net6.0/Hello,World.genruntimeconfig.cache
