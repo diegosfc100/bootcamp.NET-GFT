@@ -65,15 +65,28 @@ namespace HelloWorld // **Explicação na Aula de Orientação a Objetos
             // para concertar isso, devemos definir pelo menos um dos valores como float 
 
 
+            /* Condicionais */
+            if(50 >= 15) // SE
+            {
+                Console.WriteLine("Sim");
+            }
+            else if ( 20 == 20) // SE NÂO SE
+            {
+                Console.WriteLine("É verdade");
+            }
+            else // SE NÃO
+            {
+                Console.WriteLine("Não");
+            }
+
+            
+
 
 
 
 
 
             Console.ReadLine(); // Comando para ler, esse comando vai ficar esperando vc digitar enter para fechar.
-            
-
-
         }
     }
     //Fim do programa.
