@@ -1,6 +1,6 @@
 # INTRODUÇÃO A ORIENTAÇÃO A OBJETOS
 
-## :crossed_swords: DUNGEON DIO 🧙‍
+## :crossed_swords: Abstraindo um Jogo de RPG usando ORientação a Objetos com C# 🧙‍
 
 ![Alt text](https://static.wikia.nocookie.net/finalfantasy/images/4/45/FFI_PSP_menu_principal.jpg/revision/latest?cb=20141202084331&path-prefix=pt-br "Optional title")
 
