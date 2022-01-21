@@ -14,6 +14,7 @@ namespace HelloWorld // **Explicação na Aula de Orientação a Objetos
     // Início do programa.
     class Program // **Explicação na Aula de Orientação a Objetos
     {
+        
         static void Main(string[] args) // Função principal - Qdo um usuário cria um .exe e executa ele, o primeiro cod q irá rodar é oq estiver dentro dessa função principal
         {
             Console.Write("Hello World!"); // Comando para escrever
@@ -37,7 +38,7 @@ namespace HelloWorld // **Explicação na Aula de Orientação a Objetos
 
             // Declarando variaveis omitindo seu tipo
             var nomeCompleto = "Diego Rodrigues";
-            var idade = 30;
+            var idadeAdulto = 30;
             // uma vez declarada uma variavel com um certo tipo, ela permanece com o msm tipo pra sempre, não podendo ser alterado.
 
             //Forma mais avançada de declarar variáveis - Forma Dinamica
@@ -56,6 +57,9 @@ namespace HelloWorld // **Explicação na Aula de Orientação a Objetos
             Console.WriteLine("Escreva sua profissão: ");
             profissao = Console.ReadLine();
             Console.WriteLine("Sua profissão é: " + profissao);
+
+            // No C# tudo que é digitado no console é tratado como texto.
+            int maiorIdade = int.Parse(Console.ReadLine()); // Nesse caso usamos o int.Parse para converter a string em Inteiro.
 
 
             /* Operadores Aritiméticos */
@@ -79,15 +83,61 @@ namespace HelloWorld // **Explicação na Aula de Orientação a Objetos
                 Console.WriteLine("Não");
             }
 
+
+            /* Operadores Lógicos */
+            // && (E / AND) 
+            // || (OU / OR)
+
+
+            int idade = int.Parse(Console.ReadLine());
+
+            if (idade >= 0 && idade <= 11)
+            {
+                Console.WriteLine("Vc é uma criança!");
+            }
+            else if (idade >= 12 && idade <= 18)
+            {
+                Console.WriteLine("Vc é um adolescente!");
+            }
+            else if (idade >= 10 && idade <= 60)
+            {
+                Console.WriteLine("Vc é um adulto!");
+            }
+            else
+            {
+                Console.WriteLine("Vc é um idoso!");
+            }
             
 
+            int A = int.Parse(Console.ReadLine());
+            int B = int.Parse(Console.ReadLine());
+            int C = int.Parse(Console.ReadLine());
+            int D = int.Parse(Console.ReadLine());
+            int resultadoDiferenca = A * B - C * D;
+         
+            //Declare suas variáveis nos espaços em branco
+            Console.WriteLine("DIFERENCA = " + resultadoDiferenca);
+            Console.ReadKey();
+                 
 
-
-
-
+            
 
             Console.ReadLine(); // Comando para ler, esse comando vai ficar esperando vc digitar enter para fechar.
         }
+
+
+         /* Funçoes */
+        
+
+
+
+        
+
+
+
+
+
+
     }
     //Fim do programa.
     

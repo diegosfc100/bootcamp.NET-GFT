@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraingo-JogoRPG-OOP-Csharp/Abstraingo-JogoRPG-OOP-C#sharp.csproj": {}
+    "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraindo-JogoRPG-OOP-Csharp/Abstraingo-JogoRPG-OOP-C#sharp.csproj": {}
   },
   "projects": {
-    "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraingo-JogoRPG-OOP-Csharp/Abstraingo-JogoRPG-OOP-C#sharp.csproj": {
+    "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraindo-JogoRPG-OOP-Csharp/Abstraingo-JogoRPG-OOP-C#sharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraingo-JogoRPG-OOP-Csharp/Abstraingo-JogoRPG-OOP-C#sharp.csproj",
+        "projectUniqueName": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraindo-JogoRPG-OOP-Csharp/Abstraingo-JogoRPG-OOP-C#sharp.csproj",
         "projectName": "Abstraingo-JogoRPG-OOP-C#sharp",
-        "projectPath": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraingo-JogoRPG-OOP-Csharp/Abstraingo-JogoRPG-OOP-C#sharp.csproj",
+        "projectPath": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraindo-JogoRPG-OOP-Csharp/Abstraingo-JogoRPG-OOP-C#sharp.csproj",
         "packagesPath": "/home/diego-jn2/.nuget/packages/",
-        "outputPath": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraingo-JogoRPG-OOP-Csharp/obj/",
+        "outputPath": "/home/diego-jn2/Documentos/bootcamp.NET-GFT/Abstraindo-JogoRPG-OOP-Csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/diego-jn2/.nuget/NuGet/NuGet.Config"
