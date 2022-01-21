@@ -1,6 +1,6 @@
 # INTRODUÇÃO A ORIENTAÇÃO A OBJETOS
 
-## :crossed_swords: Abstraindo um Jogo de RPG usando ORientação a Objetos com C# 🧙‍
+## :crossed_swords: Abstraindo um Jogo de RPG usando Orientação a Objetos com C# 🧙‍
 
 ![Alt text](https://static.wikia.nocookie.net/finalfantasy/images/4/45/FFI_PSP_menu_principal.jpg/revision/latest?cb=20141202084331&path-prefix=pt-br "Optional title")
 
@@ -8,25 +8,26 @@
 # Pré requisitos
 
 - [x] VS Code
-- [ ] Extenções c#
-- [ ] SDK da microsoft
+- [x] Extenções C#
+- [x] SDK da Microsoft
 
 
 # 0. Orientação a Objetos 
-- [ ] Como representar alguma coisa no sue código
-- [ ] Objeto vs Instância
-- [ ] Como representar
+- [x] Como representar alguma coisa no seu código
+- [x] Objeto vs Instância
+- [x] Como representar
 
 # 1. Abstração 
-- [ ] Criar uma 'forma' de alguma coisa do mundo real
-- [ ] Propriedades
-- [ ] Métodos
+- [x] Criar uma 'forma' de alguma coisa do mundo real
+- [x] Propriedades
+- [x] Métodos
 
 # 2.  Herança 
-- [ ] Herda comportamentos da classe mãe (super classe)
+- [x] Herda comportamentos da classe mãe (super classe)
 
 # 3.  Encapsulamento 
-- [ ] Criar um efeito de capsula: facil consumo de algo concentrado (no caso regras de negócio)
+- [x] Criar um efeito de capsula: facil consumo de algo concentrado (no caso regras de negócio)
 
 # 4. Polimorfismo 
-- [ ] Muitas formas para a mesma coisa
+- [x] Muitas formas para a mesma coisa
+
