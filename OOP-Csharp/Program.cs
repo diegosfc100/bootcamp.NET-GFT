@@ -50,5 +50,14 @@ class Program
         Console.WriteLine("Resultado da primeira soma: " + calc.Somar(100, 30));
         Console.WriteLine("Resultado da segunda soma: " + calc.Somar(100, 30, 15));
 
+
+        /* Classes abstratas */
+        // Conta conta = new Conta(); Por ser abstrata não é possível criar uma instacia dela, pois ela serve pra ser modelo.
+
+        Corrente c1 = new Corrente(); // Corrente instanciada
+        c1.Creditar(1000);
+
+        c1.ExibirSaldo();
+
     }
 }
