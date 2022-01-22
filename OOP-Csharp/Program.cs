@@ -43,5 +43,12 @@ class Program
         p4.Idade = 35;
         p4.Nota = 10;
         p4.Apresentar();
+
+        /* Polimorfismo em tempo de compilação */
+        Calculadora calc = new Calculadora();
+        // Dependendo da quantidade de parametros vc passar, o método vai identificar qual chamar.
+        Console.WriteLine("Resultado da primeira soma: " + calc.Somar(100, 30));
+        Console.WriteLine("Resultado da segunda soma: " + calc.Somar(100, 30, 15));
+
     }
 }
