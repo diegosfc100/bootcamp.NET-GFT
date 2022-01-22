@@ -6,7 +6,6 @@
 
 ## Abstração
 - [ ] Entendendo o que é abstração.
-- [ ] Requisitos para o projeto.
 - [ ] Abstração na prática.
 
 ## Encapsulamento
@@ -42,7 +41,7 @@
 - [ ] Criar diretório
 - [ ] Apagar diretório
 - [ ] Criar arquivo texto
-- [ ]Criar arquivo texto com stream
+- [ ] Criar arquivo texto com stream
 - [ ] Adicionar novas linhas em um arquivo
 - [ ] Lendo arquivos
 - [ ] Movendo arquivos

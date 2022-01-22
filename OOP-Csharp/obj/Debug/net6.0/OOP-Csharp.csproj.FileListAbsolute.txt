@@ -1,0 +1,15 @@
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/bin/Debug/net6.0/OOP-Csharp
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/bin/Debug/net6.0/OOP-Csharp.deps.json
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/bin/Debug/net6.0/OOP-Csharp.runtimeconfig.json
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/bin/Debug/net6.0/OOP-Csharp.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/bin/Debug/net6.0/ref/OOP-Csharp.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/bin/Debug/net6.0/OOP-Csharp.pdb
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/obj/Debug/net6.0/OOP-Csharp.csproj.AssemblyReference.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/obj/Debug/net6.0/OOP-Csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/obj/Debug/net6.0/OOP-Csharp.AssemblyInfoInputs.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/obj/Debug/net6.0/OOP-Csharp.AssemblyInfo.cs
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/obj/Debug/net6.0/OOP-Csharp.csproj.CoreCompileInputs.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/obj/Debug/net6.0/OOP-Csharp.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/obj/Debug/net6.0/ref/OOP-Csharp.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/obj/Debug/net6.0/OOP-Csharp.pdb
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/OOP-Csharp/obj/Debug/net6.0/OOP-Csharp.genruntimeconfig.cache
