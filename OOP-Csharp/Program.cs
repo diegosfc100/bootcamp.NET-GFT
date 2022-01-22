@@ -2,8 +2,9 @@
 
 class Program
 {
-    static void Main(string[] args)
-    {
+    static void Main(string[] args) 
+    { // Aqui é onde as classes são Instanciadas
+
         /* Abstração */
 
         Pessoa p1 = new Pessoa(); // Objeto p1 do tipo Pessoa
@@ -58,6 +59,12 @@ class Program
         c1.Creditar(1000);
 
         c1.ExibirSaldo();
+
+
+        /* Classe Object */
+        Computer pc = new Computer();
+        Console.WriteLine(pc.ToString()); 
+        // Ao selecionar o metodo e clicar em f12, um arquivo é aberto com informaçoes sobre o mesmo.
 
     }
 }
