@@ -8,7 +8,7 @@ namespace OOP_Csharp.Models
        
         public int Idade {get;set;} // Atributo
 
-        public void Apresentar() // Método
+        public virtual void Apresentar() // Método
         {
             Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos");
         }

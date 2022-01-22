@@ -35,5 +35,13 @@ class Program
         p3.Nome = "Girafales";
         p3.Idade = 90;
         p3.Apresentar();
+
+
+        /* Polimorfismo em tempo de execução*/
+        Aluno p4 = new Aluno();
+        p4.Nome = "José";
+        p4.Idade = 35;
+        p4.Nota = 10;
+        p4.Apresentar();
     }
 }
