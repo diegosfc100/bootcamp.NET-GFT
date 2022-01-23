@@ -38,4 +38,16 @@ public class Adocao : EntidadeBase
         retorno += "Porte: " + this.Porte;               
         return retorno;
     }
+    
+    // Encapsulamento
+    public string retornaAnimal()
+    {
+        return this.Animal;
+    }
+
+    public int retornaId()
+    {
+        return this.Id;
+    }
+
 }
