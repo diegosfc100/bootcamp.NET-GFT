@@ -22,6 +22,20 @@ public class Adocao : EntidadeBase
         this.Castrado = castrado;
         this.Vacinado = vacinado;
         this.Porte = porte;
+    }
 
+    // Implementação do ToString()
+
+    public override string ToString()
+    {
+        // Environment.NewLine = /r /n https://docs.microsoft.com/pt-br/dotnet/api/system.environment.newline?view=net-6.0
+        string retorno = "";
+        retorno += "Animal: " + this.Animal + Environment.NewLine;
+        retorno += "Raça: " + this.Raça + Environment.NewLine;
+        retorno += "Cor: " + this.Cor + Environment.NewLine;
+        retorno += "Castrado: " + this.Castrado + Environment.NewLine;
+        retorno += "Vacinado: " + this.Vacinado + Environment.NewLine;
+        retorno += "Porte: " + this.Porte;               
+        return retorno;
     }
 }
