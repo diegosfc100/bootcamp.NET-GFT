@@ -4,17 +4,7 @@ namespace OOP_Csharp.Models
 {
     public class Calculadora : iCalc // Calculadora implementa  interface iCalc
     {
-        public int Dividir(int num1, int num2)
-        {
-            return num1 / num2;
-        }
-
-        public int Multiplicar(int num1, int num2)
-        {
-            return num1 * num2;
-        }
-
-        //Sobrecarga de métodos
+        
         public int Somar(int num1, int num2) // 2 parametros
         {
             return num1 + num2;
