@@ -1,4 +1,5 @@
-﻿using OOP_Csharp.Models;
+﻿using OOP_Csharp.Interfaces;
+using OOP_Csharp.Models;
 
 class Program
 {
@@ -65,6 +66,16 @@ class Program
         Computer pc = new Computer();
         Console.WriteLine(pc.ToString()); 
         // Ao selecionar o metodo e clicar em f12, um arquivo é aberto com informaçoes sobre o mesmo.
+
+
+        /* Interfaces */
+        iCalc calculadora = new Calculadora();
+        Console.WriteLine(calculadora.Dividir(50,2));
+        Console.WriteLine(calculadora.Somar(50,2));
+        Console.WriteLine(calculadora.Dividir(50,2));
+        Console.WriteLine(calculadora.Subtrair(50,2));
+        
+
 
     }
 }
