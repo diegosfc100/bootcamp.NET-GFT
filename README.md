@@ -13,7 +13,7 @@ Bootcamp da empresa GFT (Soluções de TI para entidades financeiras e indústri
 
 ## 📚 Atividades do Bootcamp
 - [Solução de Problemas em C#]()
-- [Abstraindo um Jogo de RPG Usando Orientação a Objetos com C#](https://github.com/MarcGabr/Bootcamp_GFT/tree/main/API%20Catalogo%20de%20Jogos)
+- [Abstraindo um Jogo de RPG Usando Orientação a Objetos com C#]
 - [Criando um APP simples de cadastro de Séries em .NET]()
 
 
