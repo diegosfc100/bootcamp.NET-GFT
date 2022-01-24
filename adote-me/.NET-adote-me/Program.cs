@@ -15,19 +15,19 @@
                     break;
                 case "2":
                     InserirPet();
-                    break;
-                case "3":
-                    AtualizarPets();
-                    break;
-                case "4":
-                    ExcluirPet();
-                    break;
-                case "5";
-                    VisualizarPet();
-                    break;
-                case "C";
-                    Console.Clear();
-                    break;
+                     break;
+                 case "3":
+                     AtualizarPets();
+                     break;
+                // case "4":
+                //     ExcluirPet();
+                //     break;
+                // case "5";
+                //     VisualizarPet();
+                //     break;
+                // case "C";
+                //     Console.Clear();
+                //     break;
                 
                 default:
                     throw new ArgumentOutOfRangeException();
@@ -38,6 +38,48 @@
         Console.WriteLine("Obrigado por utilizar nossos serviços.");
         Console.ReadLine();
     }
+
+     private static void AtualizarPets()
+     {
+         Console.Write("Digite o id do animal: ");
+         int indiceAnimal = int.Parse(Console.ReadLine());
+
+         foreach (int i in Enum.GetValues(typeof(Animal)))
+        {
+            Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Animal), i));
+        }
+        Console.Write("Selecione o animal entre as opções acima: ");
+        int entradaAnimal = int.Parse(Console.ReadLine());
+
+        Console.Write("Digite a raça do animal: ");
+        string entradaRaça = Console.ReadLine();
+
+        Console.Write("Digite a idade do animal: ");
+        string entradaIdade = Console.ReadLine();
+      
+        Console.Write("Digite a cor do animal: ");
+        string entradaCor = Console.ReadLine();
+
+        Console.Write("O animal é castrado? ");
+        string entradaCastrado = Console.ReadLine();
+
+        Console.Write("O animal já foi vacinado? Se sim, quais vacinas já tomou? ");
+        string entradaVacina = Console.ReadLine();
+
+        Console.Write("Qual porte do animal? ");
+        string entradaPorte = Console.ReadLine();
+
+        Adocao AtualizarPets =  new Adocao(id: indiceAnimal,
+                                        animal: (Animal) entradaAnimal,
+                                        raça: entradaRaça,
+                                        idade: entradaIdade,
+                                        cor: entradaCor,
+                                        castrado: entradaCastrado,
+                                        vacinado: entradaVacina,
+                                        porte: entradaPorte);
+
+        repositorio.Atualiza(indiceAnimal, AtualizarPets);
+     }
 
     private static void ListarPets()
     {
@@ -52,8 +94,54 @@
         }
         foreach (var adocao in lista)
         {
-            Console.WriteLine("#ID {0}: {1}", adocao.retornaId());// adocao.retornaTitulo());
+            Console.WriteLine("#ID {0}: - {1}", adocao.retornaId(), adocao.retornaRaça());
         }
+    }
+
+    private static void InserirPet()
+    {
+        Console.WriteLine("Inserir novo Pet para adoção");
+
+        //getvalue https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=net-6.0#system-enum-getvalues(system-type)
+
+        //getname https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getnames?view=net-6.0#system-enum-getnames(system-type)
+
+        foreach (int i in Enum.GetValues(typeof(Animal)))
+        {
+            Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Animal), i));
+        }
+        Console.Write("Selecione o animal entre as opções acima: ");
+        int entradaAnimal = int.Parse(Console.ReadLine());
+
+        Console.Write("Digite a raça do animal: ");
+        string entradaRaça = Console.ReadLine();
+
+        Console.Write("Digite a idade do animal: ");
+        string entradaIdade = Console.ReadLine();
+      
+        Console.Write("Digite a cor do animal: ");
+        string entradaCor = Console.ReadLine();
+
+        Console.Write("O animal é castrado? ");
+        string entradaCastrado = Console.ReadLine();
+
+        Console.Write("O animal já foi vacinado? Se sim, quais vacinas já tomou? ");
+        string entradaVacina = Console.ReadLine();
+
+        Console.Write("Qual porte do animal? ");
+        string entradaPorte = Console.ReadLine();
+
+        Adocao novaAdocao =  new Adocao(id: repositorio.ProximoId(),
+                                        animal: (Animal) entradaAnimal,
+                                        raça: entradaRaça,
+                                        idade: entradaIdade,
+                                        cor: entradaCor,
+                                        castrado: entradaCastrado,
+                                        vacinado: entradaVacina,
+                                        porte: entradaPorte);
+
+        repositorio.Insere(novaAdocao);
+        
     }
 
     private static string ObterOpcaoUsuario()
