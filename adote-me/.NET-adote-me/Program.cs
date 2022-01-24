@@ -1,8 +1,59 @@
 ﻿class Program
 {
+
+    static AdocaoRepositorio repositorio = new AdocaoRepositorio();
     static void Main(string[] args)
     {
+        string opcaoUsuario = ObterOpcaoUsuario();
+
+        while (opcaoUsuario.ToUpper() != "X")
+        {
+            switch (opcaoUsuario)
+            {
+                case "1":
+                    ListarPets();
+                    break;
+                case "2":
+                    InserirPet();
+                    break;
+                case "3":
+                    AtualizarPets();
+                    break;
+                case "4":
+                    ExcluirPet();
+                    break;
+                case "5";
+                    VisualizarPet();
+                    break;
+                case "C";
+                    Console.Clear();
+                    break;
+                
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+            opcaoUsuario = ObterOpcaoUsuario();
+        }
         
+        Console.WriteLine("Obrigado por utilizar nossos serviços.");
+        Console.ReadLine();
+    }
+
+    private static void ListarPets()
+    {
+        Console.WriteLine("Listar Pets");
+        
+        var lista = repositorio.Lista();
+
+        if (lista.Count == 0)
+        {
+            Console.WriteLine("Nenhum Pet cadastrado.");
+            return;
+        }
+        foreach (var adocao in lista)
+        {
+            Console.WriteLine("#ID {0}: {1}", adocao.retornaId());// adocao.retornaTitulo());
+        }
     }
 
     private static string ObterOpcaoUsuario()
