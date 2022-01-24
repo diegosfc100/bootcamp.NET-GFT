@@ -15,20 +15,20 @@
                     break;
                 case "2":
                     InserirPet();
+                    break;
+                case "3":
+                    AtualizarPets();
+                    break;
+                case "4":
+                    ExcluirPet();
+                    break;
+                case "5":
+                    VisualizarPet();
+                    break;
+                 case "C":
+                    Console.Clear();
                      break;
-                 case "3":
-                     AtualizarPets();
-                     break;
-                // case "4":
-                //     ExcluirPet();
-                //     break;
-                // case "5";
-                //     VisualizarPet();
-                //     break;
-                // case "C";
-                //     Console.Clear();
-                //     break;
-                
+            
                 default:
                     throw new ArgumentOutOfRangeException();
             }
@@ -37,6 +37,24 @@
         
         Console.WriteLine("Obrigado por utilizar nossos serviços.");
         Console.ReadLine();
+    }
+
+    private static void ExcluirPet()
+    {
+        Console.Write("Digite o id do animal: ");
+        int indiceAnimal = int.Parse(Console.ReadLine());
+
+        repositorio.Exclui(indiceAnimal);
+    }
+
+    private static void VisualizarPet()
+    {
+        Console.Write("Digite o id do animal: ");
+        int indiceAnimal = int.Parse(Console.ReadLine());
+
+        var adocao = repositorio.RetornaPorId(indiceAnimal);
+
+        Console.WriteLine(adocao);
     }
 
      private static void AtualizarPets()
@@ -94,7 +112,8 @@
         }
         foreach (var adocao in lista)
         {
-            Console.WriteLine("#ID {0}: - {1}", adocao.retornaId(), adocao.retornaRaça());
+            var excluido = adocao.retornaExcluido();
+            Console.WriteLine("#ID {0}: - {1} {2}", adocao.retornaId(), adocao.retornaRaça(), (excluido ? "*Adotado*" : ""));
         }
     }
 
@@ -149,7 +168,8 @@
 
     Console.WriteLine();
     Console.WriteLine("dotNET Adoção a seu dispor =) ");
-    Console.WriteLine("Informe a opção desejda: ");
+    Console.WriteLine("Informe a opção desejada: "); 
+    Console.WriteLine("");
 
     Console.WriteLine("1- Listar Pets");
     Console.WriteLine("2- Inserir Pet para doação");
@@ -166,3 +186,7 @@
     }
     
 }
+
+
+
+
