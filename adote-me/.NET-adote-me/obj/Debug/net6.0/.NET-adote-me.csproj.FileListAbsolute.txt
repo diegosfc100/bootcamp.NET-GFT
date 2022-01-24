@@ -1,0 +1,15 @@
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/bin/Debug/net6.0/.NET-adote-me
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/bin/Debug/net6.0/.NET-adote-me.deps.json
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/bin/Debug/net6.0/.NET-adote-me.runtimeconfig.json
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/bin/Debug/net6.0/.NET-adote-me.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/bin/Debug/net6.0/ref/.NET-adote-me.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/bin/Debug/net6.0/.NET-adote-me.pdb
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/obj/Debug/net6.0/.NET-adote-me.csproj.AssemblyReference.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/obj/Debug/net6.0/.NET-adote-me.GeneratedMSBuildEditorConfig.editorconfig
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/obj/Debug/net6.0/.NET-adote-me.AssemblyInfoInputs.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/obj/Debug/net6.0/.NET-adote-me.AssemblyInfo.cs
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/obj/Debug/net6.0/.NET-adote-me.csproj.CoreCompileInputs.cache
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/obj/Debug/net6.0/.NET-adote-me.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/obj/Debug/net6.0/ref/.NET-adote-me.dll
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/obj/Debug/net6.0/.NET-adote-me.pdb
+/home/diego-jn2/Documentos/bootcamp.NET-GFT/adote-me/.NET-adote-me/obj/Debug/net6.0/.NET-adote-me.genruntimeconfig.cache
