@@ -14,7 +14,14 @@ public class Adocao : EntidadeBase
     
     // Métodos
 
-    public Adocao(int id, Animal animal, string raça, string idade, string cor, string castrado, string vacinado, string porte)
+    public Adocao(int id,
+                  Animal animal,
+                  string raça,
+                  string idade,
+                  string cor,
+                  string castrado,
+                  string vacinado,
+                  string porte)
     {
         this.Id = id;
         this.Animal = animal;

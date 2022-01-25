@@ -66,6 +66,7 @@
         {
             Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Animal), i));
         }
+        
         Console.Write("Selecione o animal entre as opções acima: ");
         int entradaAnimal = int.Parse(Console.ReadLine());
 
@@ -166,13 +167,14 @@
     private static string ObterOpcaoUsuario()
     {
 
-    Console.WriteLine();
-    Console.WriteLine("dotNET Adoção a seu dispor =) ");
+    Console.WriteLine("Seja Bem-Vindo à ADOTE-ME =) ");
+    Console.WriteLine("");
+
     Console.WriteLine("Informe a opção desejada: "); 
     Console.WriteLine("");
 
     Console.WriteLine("1- Listar Pets");
-    Console.WriteLine("2- Inserir Pet para doação");
+    Console.WriteLine("2- Inserir Pet para adoção");
     Console.WriteLine("3- Atualizar lista de Pets");
     Console.WriteLine("4- Excluir Pet adotado");
     Console.WriteLine("5- Visualizar Pet");
@@ -181,6 +183,7 @@
     Console.WriteLine();
    
     string opcaoUsuario = Console.ReadLine().ToUpper();
+    
     Console.WriteLine();
     return opcaoUsuario;
     }
