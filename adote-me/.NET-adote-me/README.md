@@ -1,5 +1,5 @@
 <h1 align="center"> 
-Adote-Me :dog: :cat: :bird:
+ADOTE-ME :dog:
 </h1>
 
 <div align="center">
@@ -10,7 +10,6 @@ Adote-Me :dog: :cat: :bird:
 
 > Com o objetivo de praticar conceitos de Oritentação a Objetos em .NET e criar um CRUD, desenvolvi durante as aulas do módulo <strong>"Criando um APP simples de cadastro de séries em .NET" </strong> do Bootcamp da GFT, um App de adoção de Pets, a ideia inicial seria de cadastro de séries, mas resolvi mudar o tema até mesmo pensando em fazer algo maior com essa ideia no futuro. 
 
-<br>
 
 
 ## 🔨 Features
