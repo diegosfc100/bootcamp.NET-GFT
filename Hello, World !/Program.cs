@@ -9,10 +9,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace HelloWorld // **Explicação na Aula de Orientação a Objetos
+namespace HelloWorld 
 { 
     // Início do programa.
-    class Program // **Explicação na Aula de Orientação a Objetos
+    class Program 
     {
         
         static void Main(string[] args) // Função principal - Qdo um usuário cria um .exe e executa ele, o primeiro cod q irá rodar é oq estiver dentro dessa função principal
@@ -109,37 +109,33 @@ namespace HelloWorld // **Explicação na Aula de Orientação a Objetos
             }
             
 
-            int A = int.Parse(Console.ReadLine());
-            int B = int.Parse(Console.ReadLine());
-            int C = int.Parse(Console.ReadLine());
-            int D = int.Parse(Console.ReadLine());
-            int resultadoDiferenca = A * B - C * D;
-         
-            //Declare suas variáveis nos espaços em branco
-            Console.WriteLine("DIFERENCA = " + resultadoDiferenca);
-            Console.ReadKey();
-                 
-
+            /* Função */
+            FuncaoExibirMsg();            
             
-
-            Console.ReadLine(); // Comando para ler, esse comando vai ficar esperando vc digitar enter para fechar.
         }
 
+        
 
          /* Funçoes */
+         /* exemplo 1 */        
+        static void FuncaoExibirMsg(){ // void = vazia = não retorna nada.
+            Console.WriteLine("Exemplo Função part I");
+            Console.WriteLine("Exemplo Função part II");
+            Console.WriteLine("Exemplo Função part III");
+        }  
+
+        /* exemplo 2 */
+        /* função com parametro / parametros sao semelhantes a variaveis */
+        static void GerarPreco(int idade, string nome) // int = tipo / idade = nome do parametro
+        {
+            Console.WriteLine(nome + idade);
+        }
+
         
-
-
-
+           
         
-
-
-
-
-
-
-    }
+      }
     //Fim do programa.
     
-
+    
 }
