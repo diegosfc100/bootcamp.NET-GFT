@@ -197,7 +197,7 @@ namespace HelloWorld
             string favColor;
             Console.WriteLine("Digite sua cor favorita: ");
             favColor = Console.ReadLine();
-             Console.WriteLine("hello");
+            
 
             switch(favColor){
                 case "Vermelho":
@@ -253,7 +253,20 @@ namespace HelloWorld
                     Console.WriteLine("Opção não encontrada");
                     break;
             }
+
+
+
+                /*  W H I L E */
+
+            int contador = 0;
+            while(contador < 10)
+            {
+                Console.WriteLine(contador);
+                contador++;
+            }    
             
+
+
             
         }
             
