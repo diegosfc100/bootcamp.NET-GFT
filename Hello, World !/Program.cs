@@ -14,9 +14,12 @@ namespace HelloWorld
     
     class Program 
     {
+        /* E N U M */
         enum Cor { Verde, Amarelo, Vermelho }
             //           0       1          2     
             // 'Cor' agora é um tipo de dado q contém 3 valores diferentes
+
+        enum Opcao { Criar = 1, Deletar, Editar, Listar, Atualizar }
 
         static void Main(string[] args) // Função principal - Qdo um usuário cria um .exe e executa ele, o primeiro cod q irá rodar é oq estiver dentro dessa função principal
         {
@@ -147,7 +150,7 @@ namespace HelloWorld
 
 
 
-                /*   F U N Ç Õ E S   */
+                /*   F U N Ç Õ E S (MÉTODOS)   */
 
             static void FuncaoExibirMsg(){ // void = vazia = não retorna nada.
                 Console.WriteLine("Exemplo Função part I");
@@ -226,7 +229,30 @@ namespace HelloWorld
             Cor colorC = Cor.Vermelho;
 
             Console.WriteLine(colorA);
+
             
+            // ENUM com SWITCH
+
+            Console.WriteLine("Selecione uma das opções abaixo: ");
+            Console.WriteLine("1-Criar\n2-Deletar\n3-Editar\n4-Listar\n5-Atualizar");
+
+            int index = int.Parse(Console.ReadLine()); // Convertendo string em int, esse int é a opção selecionada
+            Opcao opcaoSelecionada = (Opcao)index; // (enum)variavel converte de enum para int e vice versa, conhecido com Cast
+
+            Console.WriteLine(opcaoSelecionada);
+
+            switch(opcaoSelecionada)
+            {
+                case Opcao.Criar:
+                    Console.WriteLine("Você quer CRIAR algo !");
+                    break;
+                case Opcao.Deletar:
+                    Console.WriteLine("Tem certeza que deseja DELETAR ?");
+                    break;
+                default:
+                    Console.WriteLine("Opção não encontrada");
+                    break;
+            }
             
             
         }
