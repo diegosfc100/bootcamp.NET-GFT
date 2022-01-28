@@ -14,9 +14,13 @@ namespace HelloWorld
     
     class Program 
     {
-        
+        enum Cor { Verde, Amarelo, Vermelho }
+            //           0       1          2     
+            // 'Cor' agora é um tipo de dado q contém 3 valores diferentes
+
         static void Main(string[] args) // Função principal - Qdo um usuário cria um .exe e executa ele, o primeiro cod q irá rodar é oq estiver dentro dessa função principal
         {
+                 
                 /* C O N S O L E */
 
             // Console.Write(""); 
@@ -184,23 +188,61 @@ namespace HelloWorld
             Console.WriteLine($"O resultado da função SOMAR é: {resultFuncao}"); 
 
 
-          
+
+                /*   S W I T C H   */
+            
+            string favColor;
+            Console.WriteLine("Digite sua cor favorita: ");
+            favColor = Console.ReadLine();
+             Console.WriteLine("hello");
+
+            switch(favColor){
+                case "Vermelho":
+                    Console.WriteLine($"Sua cor favorita é {favColor}");
+                    break;
+                case "Azul":
+                    Console.WriteLine($"Sua cor favorita é {favColor}");
+                    break;
+                case "Preto":
+                    Console.WriteLine($"Sua cor favorita é {favColor}");
+                    break;
+                case "Amarelo":
+                    Console.WriteLine($"Sua cor favorita é {favColor}");
+                    break;
+                default:
+                    Console.WriteLine("Cor favorita não encontrada");
+                    break;
+            }
             
 
+
+               /*   E N U M S   */
+            // Uma das formas de criar um novo tipo de dado 
+            // Enum = Enumeração
+                       
+
+            Cor colorA = Cor.Verde;
+            Cor colorB = Cor.Amarelo;
+            Cor colorC = Cor.Vermelho;
+
+            Console.WriteLine(colorA);
+            
+            
+            
         }
-
-        
-
-              
-        
-
-        
+            
 
 
-        
+            
+            
+           
+             
 
-      }
-    //Fim do programa.
+    }  
+
+            
+
+}  
     
     
-}
+
