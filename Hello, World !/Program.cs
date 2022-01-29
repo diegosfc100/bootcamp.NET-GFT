@@ -267,6 +267,19 @@ namespace HelloWorld
             
 
 
+                /*  D O  W H I L E  */
+            // Por mais q a condição seja false, ele sempre vai executar uma vez.
+            // Pouco utiliado no dia a dia.
+
+            do{
+                Console.WriteLine("Testando Do While");
+            }
+            while (1 < 0);
+
+            
+
+
+
             
         }
             
