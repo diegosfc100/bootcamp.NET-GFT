@@ -317,6 +317,15 @@ namespace HelloWorld
                 Console.WriteLine(nomes[i]);
             }
             
+
+
+                /*   E S C O P O */
+
+            // Escopo LOCAL: toda variável declarada dentro de um método só poderá ser usada naquele Escopo.
+
+            // Escopo GLOBAL: variaveis criadas fora de métodos mas dentro de class Program podem ser utilizadas em qualquer lugar.
+
+            
         }
             
 
