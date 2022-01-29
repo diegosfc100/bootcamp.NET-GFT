@@ -31,7 +31,7 @@ namespace HelloWorld
             Console.Write("Olá ");
             Console.Write("Mundo");
             // Olá Mundo
-
+                
             // Console.WriteLine("");
             // Escreve o texto e logo a seguir quebra para a linha seguinte, por exemplo:
             Console.WriteLine();
@@ -291,6 +291,31 @@ namespace HelloWorld
             // para cada nome no array 'nomes', imprima "foreach rodando"!
 
 
+
+                /*  F O R  */
+
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+                Console.WriteLine("FOR rodando");
+            }
+
+            //
+
+            for(int i = 0; i < nomes.Length; i++)
+            {
+                Console.WriteLine(i);
+                Console.WriteLine(nomes[i]); 
+            }
+
+            
+            // Percorrendo array de trás pra frente
+
+            for(int i = nomes.Length-1; i >= 0; i--)
+            {
+                Console.WriteLine(i);
+                Console.WriteLine(nomes[i]);
+            }
             
         }
             
