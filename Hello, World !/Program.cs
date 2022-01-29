@@ -276,8 +276,19 @@ namespace HelloWorld
             }
             while (1 < 0);
 
-            
 
+
+                /*  F O R E A C H  */
+            // foreach = para cada
+            // Serve para percorrer Arrays
+
+            string[] nomes = {"Ademir", "Maria", "Diego", "Andreia", "Joyce"};
+
+            foreach(string nome in nomes) 
+            {
+                Console.WriteLine("FOREACH RODANDO!");
+            } 
+            // para cada nome no array 'nomes', imprima "foreach rodando"!
 
 
             
